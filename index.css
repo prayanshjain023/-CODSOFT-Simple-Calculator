@@ -2,9 +2,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     height: 100vh;
     background-color: rgb(14, 21, 2);
     margin: 0;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .calculator {
@@ -48,4 +51,12 @@ button {
     background-color: #ddc3df;
     color: rgb(24, 11, 11);
     font-weight: 300;
+}
+
+@media only screen and (min-width: 768px){
+    body{
+        padding: 10px
+    }
+
+
 }
